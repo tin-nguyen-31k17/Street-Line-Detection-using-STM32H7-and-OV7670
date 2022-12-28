@@ -17,15 +17,15 @@ Implementation Steps
 
 Here are the steps that we will follow to implement this project:
 
-    Connect the OV7670 camera module to the STM32F1 microcontroller. We will use the appropriate cables and connectors to do this. The OV7670 camera module will typically have a ribbon cable with a connector that can be plugged into a header on the STM32F1 board.
+    1. Connect the OV7670 camera module to the STM32F1 microcontroller. We will use the appropriate cables and connectors to do this. The OV7670 camera module will typically have a ribbon cable with a connector that can be plugged into a header on the STM32F1 board.
 
-    Configure the STM32F1 microcontroller to communicate with the OV7670 camera module. We will need to configure the appropriate pins on the STM32F1 microcontroller as inputs or outputs, and set up the necessary clock and power connections.
+    2. Configure the STM32F1 microcontroller to communicate with the OV7670 camera module. We will need to configure the appropriate pins on the STM32F1 microcontroller as inputs or outputs, and set up the necessary clock and power connections.
 
-    Write code to initialize the OV7670 camera module and configure it to capture images. We will need to use the appropriate library functions and registers to do this.
+    3. Write code to initialize the OV7670 camera module and configure it to capture images. We will need to use the appropriate library functions and registers to do this.
 
-    Write code to process the captured images and detect the street lines. This will involve applying image processing techniques such as edge detection or line detection to the captured images.
+    4. Write code to process the captured images and detect the street lines. This will involve applying image processing techniques such as edge detection or line detection to the captured images.
 
-    Test our code and debug any issues that we encounter. We will make sure that the STM32F1 microcontroller and OV7670 camera module are functioning correctly and that the street line detection algorithm is working as expected.
+    5. Test our code and debug any issues that we encounter. We will make sure that the STM32F1 microcontroller and OV7670 camera module are functioning correctly and that the street line detection algorithm is working as expected.
 
-    Integrate our code into our project as needed. We may need to modify the code to fit our specific project requirements or to interface with other hardware or software components in our project.
+    6. Integrate our code into our project as needed. We may need to modify the code to fit our specific project requirements or to interface with other hardware or software components in our project.
 
