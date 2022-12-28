@@ -14,6 +14,24 @@
 #define CAMERA_PWR_PIN    GPIO_PIN_9
 
 #define CAMERA_BUFFER_SIZE  1024  // size of camera image buffer
+
+// data structure to hold information about detected street lines
+struct street_line
+{
+    int x1;  // x-coordinate of starting point
+    int y1;  // y-coordinate of starting point
+    int x2;  // x-coordinate of ending point
+    int y2;  // y-coordinate of ending point
+    float slope;  // slope of line
+    int length;  // length of line
+};
+
+// global array to hold detected street lines
+struct street_line street_lines[10];
+int num_street_lines = 0;  // number of detected street lines
+
+// function to process captured image and detect street lines
+
 uint8_t camera_buffer[CAMERA_BUFFER_SIZE];  // camera image buffer
 
     // function to start capturing images with OV7670 camera module
