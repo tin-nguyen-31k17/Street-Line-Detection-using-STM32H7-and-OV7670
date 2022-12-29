@@ -1,17 +1,21 @@
-# Project: Street Line Detection using STM32F1 and OV7670
+# Logic Design CO3091 Project: Street Line Detection using STM32F722ZET and OV7670 Camera
 
 ## Introduction
 
-In this project, we aim to develop a system that uses an STM32F1 microcontroller and an OV7670 camera module to detect street lines and take appropriate actions based on the detected lines. The system will be able to detect the position and slope of the street lines, and it will be able to stop or slow down the car based on the detected lines.
+In this project, we aim to develop a system that uses an STM32F722ZET microcontroller and an OV7670 camera module to detect street lines and take appropriate actions based on the detected lines. The system will be able to detect the position and slope of the street lines, and it will be able to stop or slow down the car based on the detected lines.
 
-# Hardware and Software Requirements
+# Hardware Requirements
 
-To implement this project, we will need the following hardware and software components:
+To implement this project, we will need the following hardware components:
 
-1. STM32F1 microcontroller board
-2. OV7670 camera module
-3. Connecting cables and connectors
-4. Computer with a C compiler and development environment (such as Eclipse or Keil)
+* STM32F722ZET microcontroller
+* OV7670 camera
+* Vision sensor connector cables
+
+# Software Requirements
+
+* A development environment for programming the STM32F722ZET, such as STM32CubeIDE
+* Image processing libraries, such as OpenCV or ImgLib2*
 
 # Implementation Steps
 
