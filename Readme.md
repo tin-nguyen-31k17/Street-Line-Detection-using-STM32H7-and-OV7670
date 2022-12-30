@@ -24,7 +24,7 @@ Here are the steps that we follow to implement this project:
 1. Set up the STM32F722ZET microcontroller and connect it to the OV7670 camera using the appropriate connector cables.
 2. Configure the OV7670 camera to output data in a format that can be processed by the STM32F722ZET, such as raw image data or compressed video data.
 3. Use the STM32F722ZET to control the OV7670 camera and capture images or video frames.
-4. Use image processing techniques to analyze the captured data and detect the street lines. You can use functions provided by the STM32F722ZET's hardware acceleration engines, such as the Chrom-ART Accelerator or the DMA2D controller, to speed up the processing.
+4. Use image processing techniques to analyze the captured data and detect the street lines. We use functions provided by the STM32F722ZET's hardware acceleration engines, such as the Chrom-ART Accelerator or the DMA2D controller, to speed up the processing.
 5. Use the STM32F722ZET to interpret the results of the image processing and determine the location and orientation of the street lines.
 6. Use the STM32F722ZET to control the movement of a vehicle based on the detected street lines.
 
